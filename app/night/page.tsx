@@ -1,9 +1,12 @@
+import Image from "next/image";
+
+
 export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-base-200">
       <div className="card bg-base-100 w-96 shadow-xl">
         <div className="card-body items-center text-center">
-          <img src="/cute.gif" alt="Cute GIF" className="w-32 h-32 mx-auto" />
+          <Image src="/cute.gif" alt="Cute GIF" className="w-32 h-32 mx-auto" width={32} height={32}/>
           
           <div className="font-bold text-xl">
             <h2>ความในใจจากดาด้าถึงพี่ไนท์ 🐶</h2>

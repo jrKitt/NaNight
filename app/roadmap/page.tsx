@@ -32,7 +32,7 @@ export default function Roadmap() {
     return (
       <div className="min-h-screen flex flex-col items-center bg-base-200 py-10">
         <h1 className="text-3xl font-bold mb-6">🛤 การเดินทางของดาด้าและนะไน้ตลอด2ปี</h1>
-        <img src="/krm.gif" alt="Cute GIF" className="w-32 h-32 mx-auto" />
+        <Image src="/krm.gif" alt="Cute GIF" className="w-32 h-32 mx-auto" width={32} height={32} />
         <div className="w-full max-w-2xl">
           <ul className="relative border-l-2 border-dashed border-gray-400 ml-4">
             {steps.map((step, index) => (
@@ -46,7 +46,7 @@ export default function Roadmap() {
               </li>
             ))}
           </ul>
-          <img src="/img1.jpg" alt="Cute GIF" className="w-64 h-80 mx-auto rounded-2xl mb-3" />
+          <Image src="/img1.jpg" alt="Cute GIF" className="w-64 h-80 mx-auto rounded-2xl mb-3" width={64} height={80}/>
           <div className="flex justify-center">
           <button className="btn btn-active btn-primary text-white"><a href="/night">ย้อนกลับ 🌸</a></button>
           </div>
