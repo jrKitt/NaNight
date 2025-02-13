@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Mali } from 'next/font/google'
 import "./globals.css";
-
 const mali = Mali({
-  weight: "200",
+  subsets: ["thai", "latin"], 
+  weight: ["400", "700"], 
+  display: "swap",
 });
 
 
